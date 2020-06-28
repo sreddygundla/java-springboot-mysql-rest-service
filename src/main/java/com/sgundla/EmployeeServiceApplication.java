@@ -34,7 +34,7 @@ public class EmployeeServiceApplication {
         return repository.findByEmail(email);
     }
 
-    @DeleteMapping("/delete/{id}")
+    @DeleteMapping("/deleteEmployee/{id}")
     public List<Employee> deleteEmployee(@PathVariable int id) {
         repository.deleteById(id);
         return repository.findAll();

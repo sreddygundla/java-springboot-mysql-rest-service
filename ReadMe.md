@@ -6,3 +6,21 @@
 
 ## Run the code
 `java -jar target/employee-rest-service-0.0.1.jar`
+
+## API Endpoints
+### addEmployee
+POST http://localhost:8080/addEmployee with JSON Body
+```
+{
+    "name":"sgundla"
+    "email":"sgundla@dummy.com"
+    "experience":20
+    "domain":"DevOps"
+}
+```
+### findEmployee
+GET http://localhost:8080/findEmployee/<empEmailId>
+### getAllEmployees
+GET http://localhost:8080/getAllEmployees
+### deleteEmployee
+GET http://localhost:8080/deleteEmployee/<empId>
