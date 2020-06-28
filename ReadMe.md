@@ -18,9 +18,9 @@ POST http://localhost:8080/addEmployee with JSON Body
     "domain":"DevOps"
 }
 ```
-### findEmployee
-GET http://localhost:8080/findEmployee/<empEmailId>
 ### getAllEmployees
 GET http://localhost:8080/getAllEmployees
+### findEmployee
+GET http://localhost:8080/findEmployee/{empEmailId}
 ### deleteEmployee
-GET http://localhost:8080/deleteEmployee/<empId>
+GET http://localhost:8080/deleteEmployee/{empId}
